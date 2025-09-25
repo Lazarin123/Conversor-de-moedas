@@ -20,6 +20,7 @@ public class conversor {
                 System.out.println("Você escolheu converter Real para Dólar\n");
                 System.out.println("Digite o valor em Real que deseja converter: \n");
                 double real = new java.util.Scanner(System.in).nextDouble();
+                double real = new java.util.Scanner(System.in).nextDouble();
                 double dolar = real / 5.25;
                 System.out.printf("O valor em Dólar é: %.2f\n", dolar);
                 break;
